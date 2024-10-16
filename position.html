@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positions</title>
+    <style>
+        .swim-container{
+            position: relative;
+
+        }
+        .box{
+            border: 2px dotted plum;
+            width: 200px;
+        }
+        /* .ring{
+            position: relative;
+            left: 50px;
+            top: 30px;
+        } */
+         /* .ring{
+            position: absolute;
+            top: 30px;
+            left: 100px;
+         } */
+          .dummy{
+            border: 1px solid blue;
+            width: 200px;
+            height: 200px;
+          }
+          /* .ring{
+            position: sticky;
+            top: 0px;
+          } */
+           .ring{
+            position: fixed;
+            top: 200px;
+            left: 200px;
+           }
+    </style>
+</head>
+<body>
+    <h3>CSS Positions</h3>
+    <ol>
+        <li>Static</li>
+        <li>Relative(jekhanei jabe nijer jayga charbe na)</li>
+        <li>Absolate(will lose its own position and will move based on the root )</li>
+        <li>Fixed</li>
+        <li>Sticky</li>
+    </ol>
+    <div class="swim-container">
+        <div class="box "><img src="swim/boy.svg" alt=""></div>
+        <div class="box ring"><img src="swim/ring.svg" alt=""></div>
+        <div class="box"><img src="swim/water.svg" alt="">
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div></div>
+    </div>
+</body>
+</html>
